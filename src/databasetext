@@ -1,0 +1,9 @@
+create database Mydb;
+use MyDb;
+create table Persons(
+firstname varchar(100),
+lastname varchar(100),
+age int
+);
+
+insert into Persons (firstname,lastname,age) values ('Tatyana','Luginina',42);
